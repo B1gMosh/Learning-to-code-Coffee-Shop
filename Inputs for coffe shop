@@ -1,6 +1,25 @@
 #lets build a robot barista!!!
 
-print("Hello, Welcome to B1gMosh Coffee Shop!")
+#print("Hello, Welcome to B1gMosh Coffee Shop!")
+
+#name = input("What is your name?\n")
+
+#print("Hello " + name + ", Thank you for coming in today.\n\n\n")
+ 
+#menu = "black coffee, Espresso, Latte, Cappucino"
+
+#print(name + ", What would you like from our menu today? Here is what we are serving. \n" + menu)
+
+#order = input()
+
+#print("Sounds good " + name + ", We'll have that " + order + " Ready for you in a moment!")
+
+#new And improved!!!! adding the pricing and dollor sign to the code messing with str and int
+
+
+#lets build a robot barista!!! PT2
+
+print("Hello, Welcome to Networkchuck coffee!!!!!")
 
 name = input("What is your name?\n")
 
@@ -8,9 +27,33 @@ print("Hello " + name + ", Thank you for coming in today.\n\n\n")
  
 menu = "black coffee, Espresso, Latte, Cappucino"
 
-print(name + ", What would you like from our menu today? Here is what we are serving. \n" + menu)
+print(name + ", what would you like from our menu today? Here is what we are serving. \n" + menu)
 
 order = input()
 
-print("Sounds good " + name + ", We'll have that " + order + " Ready for you in a moment!")
+price = 8
+
+quantity = input("How many Coffees would you like?\n")
+
+total = price * int(quantity)
+
+print("thank you, Your total is: $" + str(total))
+
+print("sounds good " + name + ", We'll have your " + quantity + " " + order + " Ready for you in a moment!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
