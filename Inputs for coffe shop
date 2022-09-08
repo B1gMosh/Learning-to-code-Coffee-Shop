@@ -1,8 +1,6 @@
-#Let's start a coffee shop together!! We're going to build a coffee shop using some new Python programming concepts!!
-
 #lets build a robot barista!!!
 
-print("Hello, Welcome to Hals Coffee Shop!")
+print("Hello, Welcome to B1gMosh Coffee Shop!")
 
 name = input("What is your name?\n")
 
@@ -10,9 +8,9 @@ print("Hello " + name + ", Thank you for coming in today.\n\n\n")
  
 menu = "black coffee, Espresso, Latte, Cappucino"
 
-print(name + ", what would you like from our menu today? Here is what we are serving. \n" + menu)
+print(name + ", What would you like from our menu today? Here is what we are serving. \n" + menu)
 
 order = input()
 
-print("sounds good " + name + ", We'll have that " + order + " Ready for you in a moment!")
+print("Sounds good " + name + ", We'll have that " + order + " Ready for you in a moment!")
 
